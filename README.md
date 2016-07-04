@@ -5,4 +5,5 @@ Any photo can be used to make the mask.
 Used Neural Networks to detect facial keypoints.
 Used Lasagne and create a neural net with a single hidden layer.
 
- 
+The training dataset for the Facial Keypoint Detection challenge consists of 7,049 96x96 gray-scale images.
+The complete dataset is available at https://www.kaggle.com/c/facial-keypoints-detection/data .
