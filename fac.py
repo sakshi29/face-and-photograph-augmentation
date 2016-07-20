@@ -24,7 +24,7 @@ def load(test=False, cols=None):
     target columns.
     """
     fname = FTEST if test else FTRAIN
-    df = read_csv(os.path.expanduser(fname))  # load pandas dataframe
+    df = read_csv(os.path.expanduser(fname))  # load pandas 
     ## df = df.dropna() 
     # The Image column has pixel values separated by space; convert
     # the values to numpy arrays:
